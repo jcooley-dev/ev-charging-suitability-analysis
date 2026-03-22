@@ -4,6 +4,12 @@
 
 This project identifies optimal locations for EV charging stations using GIS-based multi-criteria analysis. It integrates accessibility, population demand, land suitability, and environmental constraints.
 
+## Key Takeaways
+
+- High-suitability zones cluster near major transportation corridors (I-275, I-4)
+- Northern and eastern Tampa show underserved infrastructure gaps
+- Environmentally sensitive and flood-prone areas were successfully excluded using constraint masking
+  
 ## Methods
 
 * Raster reclassification (1–5 scale)
@@ -19,7 +25,13 @@ This project identifies optimal locations for EV charging stations using GIS-bas
 * FEMA Flood Zones
 * National Wetlands Inventory
 * Tampa Open Data
+  
+## Model Weights
 
+- Road accessibility: 40%
+- Land suitability (land cover): 35%
+- Population density: 25%
+  
 ## Results
 
 * Identified high-suitability zones near major corridors (I-275, I-4)

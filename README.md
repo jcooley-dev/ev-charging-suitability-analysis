@@ -37,3 +37,12 @@ This project identifies optimal locations for EV charging stations using GIS-bas
 * Final suitability map
 * ModelBuilder workflow
 * Technical report
+
+## Map Output
+![EV Suitability Map](maps/ev_suitability_map.png)
+
+## Model Workflow
+![ModelBuilder](model/modelbuilder_workflow.png)
+
+## Weighted Overlay Setup
+![Weighted Overlay](model/weighted_overlay_settings.png)
